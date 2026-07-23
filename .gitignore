@@ -1,0 +1,30 @@
+# Dependências e pacotes
+node_modules/
+vendor/
+
+# Builds e relatórios
+dist/
+build/
+coverage/
+.next/
+
+# Variáveis de ambiente e segredos
+.env
+.env.*
+!.env.example
+
+# Arquivos de sistema e editores
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Supabase local
+supabase/.temp/
