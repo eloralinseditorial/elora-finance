@@ -22,3 +22,7 @@ O Elora utilizará o Supabase, baseado em PostgreSQL, como ponto de partida para
 - O acesso será restringido por políticas de segurança no nível de linha (RLS).
 - Valores monetários serão armazenados em formato decimal apropriado, evitando imprecisão de ponto flutuante.
 - Migrações e políticas de acesso serão versionadas em `supabase/`.
+
+## Implementação inicial
+
+A primeira migração está em `supabase/migrations/` e cria as entidades descritas, índices para as consultas principais, atualização automática de timestamps e políticas RLS. Consulte [Supabase](supabase.md) para os passos de conexão com o projeto hospedado.
